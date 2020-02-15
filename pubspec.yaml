@@ -2,7 +2,7 @@ name: vendor_manager
 description: A new Flutter plugin.
 version: 0.0.1
 author: HaviLee
-homepage: 
+homepage: https://github.com/HaviLee/VendorManager
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
