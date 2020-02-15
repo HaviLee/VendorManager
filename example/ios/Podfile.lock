@@ -1,0 +1,42 @@
+PODS:
+  - AMap3DMap (7.2.0):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.6.2)
+  - AMapLocation (2.6.4):
+    - AMapFoundation (~> 1.6.1)
+  - Flutter (1.0.0)
+  - HIVendorManager (0.1.0):
+    - AMap3DMap
+    - AMapLocation
+  - vendor_manager (0.0.1):
+    - Flutter
+    - HIVendorManager
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - vendor_manager (from `.symlinks/plugins/vendor_manager/ios`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AMap3DMap
+    - AMapFoundation
+    - AMapLocation
+    - HIVendorManager
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  vendor_manager:
+    :path: ".symlinks/plugins/vendor_manager/ios"
+
+SPEC CHECKSUMS:
+  AMap3DMap: be13191194c9aeb29a67d9d3e9a797588fb329aa
+  AMapFoundation: 672dc3a4759cb733f447c1e1b020f7ba2729f4ab
+  AMapLocation: b4162db67f813508a14ee7e05c7ee4073785221d
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  HIVendorManager: 82ec6416b47cd1faed39e7749031df52eef5062f
+  vendor_manager: 413beb5e0a33f0542764ddc973a7b7318705ea8b
+
+PODFILE CHECKSUM: 313c3049151ae8b4890bd5a73d494a7087843ccf
+
+COCOAPODS: 1.8.4
